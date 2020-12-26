@@ -1,0 +1,57 @@
+ <html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Carregando modo claro, para trocar só tirar o day -->
+    <link rel="stylesheet" href="css/cadastro.css">
+        <!-- Carregando scripts -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+        <script src="js/firebaseAuthFeatures.js"></script>
+        <script src="js/firebaseAppInit.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+        document.addEventListener("deviceready", function() {
+        firebase.initializeApp(firebaseConfig);
+        }, false);
+        </script>
+	<title>MonTec</title>
+</head>
+<body>
+    <div id="new-request" class="new-request"><div class="modal2"><div id="preloader"><div id="loader"></div></div></div></div>
+    <div id="new-request2" class="new-request"><div class="modal3"><h1>Boa!</h1><br>Sua conta foi criada e você recebeu um email de verificação, verifique seu email para liberar o acesso.<br><button class="btn" onclick="fecharVerify()">Ok</button></div></div>
+    <div id="container">
+        <img class="icones2" src="imgs/svg/undraw_unboxing_pbmf.svg">
+	<div class="login-box">
+        <h1>Cadastro</h1>
+
+        <div class="textbox">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Nome" id="nome" autocomplete="name">
+        </div>
+        <div class="textbox">
+        <i class="fas fa-at"></i>
+        <input type="email" placeholder="Email" id="email" autocomplete="on"/>
+        </div>
+        <div class="textbox">
+        <i class="fas fa-phone"></i>
+        <input type="tel" placeholder="Telefone" id="fone" autocomplete="on">
+        </div>
+        <div class="textbox">
+        <i class="fas fa-calendar-alt"></i>
+        <input type="date" placeholder="Data de nascimento" id="data">
+        </div>
+        <div class="textbox">
+        <i class="fas fa-map-marked-alt"></i>
+        <input type="text" placeholder="Endereço" id="endereco" autocomplete="street-address">
+        </div>
+        <div class="textbox">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Senha" id="senha">
+        </div>
+        <button class="btn" onclick="signup()">Cadastrar</button>
+    </div>
+    </div>
+    </body>
+    </html>

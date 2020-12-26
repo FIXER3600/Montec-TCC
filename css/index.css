@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'ageo_personal_useregular';
+    src: url('ageopersonaluse-semibold-webfont.woff2') format('woff2'), url('ageopersonaluse-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-105deg, #a571de, #6c63ff);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'ageo_personal_useregular';
+    
+}
+
+h2 {
+    margin-top: 30%;
+    font-size: 3.2rem;
+}
+
+svg{
+  width: 7rem;
+  height: 7rem;
+  display:inline-block;
+}

@@ -1,0 +1,316 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body {
+  background-image: linear-gradient(-105deg, #a571de, #6c63ff);
+  color: rgb(19, 19, 19);
+  font-family: 'ageo_personal_useregular';
+  margin: 0;
+  height: 110%;
+}
+
+#container {
+  background-image: linear-gradient(-105deg, #a571de, #6c63ff);
+  width: 100%;
+  height: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'ageo_personal_useregular';
+  src: url('ageopersonaluse-semibold-webfont.woff2') format('woff2'), url('ageopersonaluse-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-extralight-webfont.woff2') format('woff2'), url('raleway-extralight-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-light-webfont.woff2') format('woff2'), url('raleway-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-thin-webfont.woff2') format('woff2'), url('raleway-thin-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.login-box {
+  margin: 15% auto;
+  margin-left: 15%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  box-shadow: 0 0.5125rem 0.975rem 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+.login-box h1 {
+  float: left;
+  margin-left: 10%;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding: 13px 0;
+}
+
+.textbox {
+  border-radius: 20px;
+  background: #d8d8d8;
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-bottom: 2%;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.textbox i {
+  margin-left: 4%;
+  float: left;
+  color: #3b3b3b;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.textbox input {
+  float: right;
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(19, 19, 19);
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: .5px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: raleway;
+  line-height: 1.2rem;
+  width: 80%;
+  float: right;
+}
+
+.textbox2 {
+  border-radius: 20px;
+  background: #d8d8d8;
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.textbox2 i {
+  margin-left: 4%;
+  color: #3b3b3b;
+  font-size: 1.6rem;
+  float: left;
+  text-align: center;
+}
+
+.textbox2 input {
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(19, 19, 19);
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: raleway;
+  letter-spacing: .5px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  width: 80%;
+  float: right;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin: 50% auto;
+}
+
+.btn {
+  text-align: center;
+  margin: 20px auto;
+  vertical-align: baseline;
+  height: 50px;
+  padding: 0 35px;
+  border-radius: 40px;
+  line-height: 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-family: raleway;
+  font-size: 17px;
+  font-weight: 300;
+  transition: background-color .2s;
+  color: #fff;
+  background-color: #6c63ff;
+  box-shadow: 0 0.3125rem 0.375rem 0 rgba(46, 46, 46, 0.5) !important;
+}
+
+.btn2 {
+  text-align: center;
+  margin-top: 20px !important;
+  margin: auto;
+  vertical-align: baseline;
+  height: 50px;
+  padding: 0 35px;
+  border-radius: 40px;
+  line-height: 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-family: raleway;
+  font-size: 17px;
+  font-weight: 300;
+  transition: background-color .2s;
+  color: #fff;
+  background-color: #6c63ff;
+  box-shadow: 0 0.3125rem 0.375rem 0 rgba(46, 46, 46, 0.5) !important;
+}
+
+.a2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: 'raleway';
+  letter-spacing: .5px;
+  font-weight: 300;
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  margin-top: 0;
+  height: 30%;
+}
+
+svg{
+  width: 7rem;
+  height: 7rem;
+  display:inline-block;
+}
+
+.modal2 {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.new-request{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0,0,0,0.4);
+  z-index: 99999;
+  display: none;
+}
+
+.new-request.open{
+  display: block;
+}
+
+.modal3 {
+  text-align: left;
+  margin-top: 50%;
+  margin-left: 15%;
+  box-shadow: 0 0.5125rem 0.975rem 0 rgba(0, 0, 0, 0.3) !important;
+  background-color: white;
+  width: 60%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#loader {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #6c63ff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #a571de;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #FF00FF;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}

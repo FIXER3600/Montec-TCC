@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" charset="UTF-8">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+    <script>
+     var firebaseConfig = {
+    apiKey: "AIzaSyD2dmK_FvPyNOT-OgnWSw5ycVk0Bym4cAY",
+    authDomain: "montectcc.firebaseapp.com",
+    databaseURL: "https://montectcc.firebaseio.com",
+    projectId: "montectcc",
+    storageBucket: "montectcc.appspot.com",
+    messagingSenderId: "676436694770",
+    appId: "1:676436694770:web:7bb4dfffa6aad44415e26b",
+    measurementId: "G-ZHMC7957X6"
+  };
+  firebase.initializeApp(firebaseConfig);
+  </script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <link rel="stylesheet" href="css/map.css">
+  </head>
+  <body>
+    <div class="new-request"><div class="modal2"></div></div>
+    <div id="map_canvas">
+      <button id="btnvoltar"><i class="fas fa-arrow-left"></i></button>
+      <button id="btnfiltro"><i class="fas fa-filter"></i></button>
+    </div>
+  </body>
+</html>

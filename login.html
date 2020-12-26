@@ -1,0 +1,42 @@
+ <html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <!-- Carregando modo claro, para trocar só tirar o day -->
+    <link rel="stylesheet" href="css/stylelogin.css">
+    
+        <!-- Carregando scripts -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+        <script src="js/firebaseAuthFeatures.js"></script>
+        <script src="js/firebaseAppInit.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+	<title>MonTec</title>
+</head>
+<body>
+  <div id="new-request" class="new-request"><div class="modal2"><div id="preloader"><div id="loader"></div></div></div></div>
+  <div id="new-request2" class="new-request"><div class="modal3"><h1>Ops!</h1><br>É necessário verificar seu email para logar, deseja enviar o email de verificação novamente?<br><button class="btn2" onclick="mandarVerify()">Sim</button><button class="btn2" onclick="naoMandar()">Não</button></div></div>
+  <div id="container">
+    <!-- Img Assistencia Login -->
+    <img class="icones2" src="imgs/svg/undraw_unboxing_pbmf.svg">
+    
+		<div class="login-box">
+    <h1>Login</h1>
+    <div class="textbox">
+    <i class="fas fa-user-circle"></i>
+    <input type="email" placeholder="Email" id="email" autocomplete="on" autofocus>
+    </div>
+    <div class="textbox2">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Senha" id="senha">
+    </div>
+
+    <a class="a2" href="fgtps.html">Esqueceu sua senha?</a>
+    <br><button class="btn" onclick="login()">Entrar</button>
+    <br><a class="a2" href="cadastro.html"> Cadastre-se</a>
+    <br><br>
+    </div>
+    </div>
+    </body>
+    </html>

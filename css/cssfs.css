@@ -1,0 +1,145 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-extralight-webfont.woff2') format('woff2'),
+       url('raleway-extralight-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-light-webfont.woff2') format('woff2'),
+       url('raleway-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway-thin-webfont.woff2') format('woff2'),
+       url('raleway-thin-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'ageo_personal_useregular';
+  src: url('ageopersonaluse-semibold-webfont.woff2') format('woff2'),
+  url('ageopersonaluse-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'rbc-webfont';
+  src: url('rbc-webfont.woff2') format('woff2'),
+  url('rbc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  background-color: #766ffc;
+  margin: 0;
+  font-family: raleway;
+  height: 110%;
+}
+
+#container {
+  background-color: #766ffc;
+  width: 100%;
+  height: 120%;
+  margin: 0;
+  padding: 0;
+  background-size: auto;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: .5px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.login-box{
+  margin: 15% auto;
+  margin-left: 15%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  box-shadow: 0 0.5125rem 0.975rem 0 rgba(46, 46, 46, 0.8) !important;
+}
+.login-box h1{
+  font-weight: 600;
+  float: left;
+  font-size: 36px;
+  padding: 13px 0;
+}
+.textbox{
+  border-radius: 20px;
+  background: #d8d8d8;
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-bottom: 2%;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.textbox i{
+  margin-left: 4%;
+  float: left;
+  color: #3b3b3b;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(19,19,19);
+  white-space: nowrap;
+	text-decoration: none;
+	letter-spacing: .5px;
+	font-size: 1.3rem;
+  font-weight: 300;
+  font-family: raleway;
+  line-height: 1.2rem;
+  width: 80%;
+  float: right;
+}
+
+.btn{
+  text-align: center;
+  margin: 20px auto;
+  vertical-align: baseline;
+  height: 50px;
+  padding: 0 35px;
+  border-radius: 40px;
+  line-height: 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-family: raleway;
+  font-size: 17px;
+  font-weight: 300;
+  transition: background-color .2s;
+  color: #fff;
+  background-color: #6c63ff;
+  box-shadow: 0 0.3125rem 0.375rem 0 rgba(46, 46, 46, 0.5) !important;
+}
+
+img {
+  margin-top: 0%;
+  width: 100%;
+  height: 30%;
+}
